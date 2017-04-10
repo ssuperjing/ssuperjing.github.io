@@ -1,222 +1,289 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
 
-<!-- Head tag -->
+  <!DOCTYPE HTML>
+<html >
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!--Description-->
+  <meta charset="UTF-8">
   
+    <title>Archives | Hexo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="John Doe">
+    
 
-  <!--Author-->
-  
-  <meta name="author" content="John Doe">
-  
+    
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
 
-  <!--Open Graph Title-->
-  
-      <meta property="og:title" content="Hexo"/>
-  
-  <!--Open Graph Description-->
-  
-  <!--Open Graph Site Name-->
-  <meta property="og:site_name" content="Hexo"/>
-  <!--Type page-->
-  
-      <meta property="og:type" content="website" />
-  
-  <!--Page Cover-->
-  
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <!-- Title -->
-  
-  <title>Archives - Hexo</title>
-
-
-  <link rel="shortcut icon" href="https://hexo.io/icon/favicon-96x96.png">
-
-  <!-- Custom CSS/Sass -->
-  <link rel="stylesheet" href="/css/style.css">
-
-  <!----------------------------
-  https://github.com/GallenHu/hexo-theme-Daily
-
- _____            _   _
-|  __ \          (_) | |
-| |  | |   __ _   _  | |  _   _
-| |  | |  / _` | | | | | | | | |
-| |__| | | (_| | | | | | | |_| |
-|_____/   \__,_| |_| |_|  \__, |
-                          __/ |
-                         |___/
-
-    --------------------------->
-
+    
+    <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
-
-<body>
-
-  <!-- Nav -->
-  <header class="site-header">
-  <div class="header-inside">
-    <div class="logo">
-      <a href="/" rel="home">
+    <body>
+      <header>
         
-        <img src="https://hexo.io/logo.svg" alt="Hexo" height="60">
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Hexo" title="Hexo"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Hexo">Hexo</a></h1>
+				<h2 class="blog-motto"></h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home</a></li>
+					
+						<li><a href="/archives">Archives</a></li>
+					
+						<li><a href="/about">About</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:yoursite.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+      </header>
+      <div id="container">
         
-      </a>
-    </div>
-    <!-- Navigation -->
-    <nav class="navbar">
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse">
-        <ul class="navbar-nav">
-          
-          
-            <li>
-              <a href="/.">
-                
-                  home
-                
-              </a>
-            </li>
-          
-            <li>
-              <a href="/archives">
-                
-                  archive
-                
-              </a>
-            </li>
-          
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </nav>
-    <div class="button-wrap">
-      <button class="menu-toggle">Primary Menu</button>
-    </div>
-  </div>
-</header>
 
+<div class="archive-title" >
+  <h2 class="archive-icon">Archives</h2>
+  
+  <div class="archiveslist archive-float clearfix">
+   <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">Apr 2017</a><span class="archive-list-count">3</span></li></ul>
+ </div>
+  
+</div>
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
 
-  <!-- Main Content -->
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2017/04/10/picture/" title="picture" itemprop="url">
   
 
-<!-- Main Content -->
-<div class="archive content-area">
-  <div class="container">
-    <h1 class="entry-title">Archives</h1>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <!-- Use lodash to classify posts. See https://lodash.com/docs#groupBy
-          1. group site.posts by year
-          2. sort posts-in-one-year by Month and Day
-        -->
-        
-
-        
-          <h2 class="year">2017</h2>
-          <ul class="list">
-            
-  <li>
-    <span class="date">
-      2017-04-10
-    </span>
-    <a href="/2017/04/10/picture/" class="title">
-      picture
-    </a>
-  </li>
-
-  <li>
-    <span class="date">
-      2017-04-10
-    </span>
-    <a href="/2017/04/10/hello-world/" class="title">
-      Hello World
-    </a>
-  </li>
-
-  <li>
-    <span class="date">
-      2017-04-10
-    </span>
-    <a href="/2017/04/10/first/" class="title">
-      第一篇博客
-    </a>
-  </li>
+    <time datetime="2017-04-10T03:45:17.000Z" itemprop="datePublished">2017-04-10</time>
 
 
-          </ul>
-        
+    <h1 itemprop="name">picture</h1>
+
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2017/04/10/first/" title="第一篇博客" itemprop="url">
+  
+
+    <time datetime="2017-04-10T03:40:56.000Z" itemprop="datePublished">2017-04-10</time>
+
+
+    <h1 itemprop="name">第一篇博客</h1>
+
+  </a>
+</section>
+
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2017/04/10/hello-world/" title="Hello World" itemprop="url">
+  
+
+    <time datetime="2017-04-10T02:37:09.000Z" itemprop="datePublished">2017-04-10</time>
+
+
+    <h1 itemprop="name">Hello World</h1>
+
+  </a>
+</section>
+
+
+  </div>
+</div>
+
       </div>
-    </div>
-  </div>
-</div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Hello ,I&#39;m Larry Page in Google. <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/2176287895" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+			
+		
 
-
-  <!-- Footer -->
-  <!-- Footer-widgets -->
-<div class="footer-widgets">
-  <div class="row inside-wrapper">
-    <div class="col-1-3">
-      <aside>
-        <h1 class="widget-title">关于本站</h1>
-        <div class="custom-widget-content">
-          
-          <ul><li><a href="https://github.com/GallenHu/hexo-theme-Daily">如何自定义这里的内容(配置教程)?</a></li></ul>
-        </div>
-      </aside>
-    </div>
-    <div class="col-1-3">
-      <aside>
-        <h1 class="widget-title">Contact</h1>
-        <div class="widget-text">
-          
-            
-              <a href="https://github.com/GallenHu" class="icon icon-github" target="_blank">github</a>
-            
-          
-        </div>
-      </aside>
-    </div>
-    <div class="col-1-3">
-      <aside>
-        <h1 class="widget-title">Search</h1>
-        <div class="widget-text">
-          <form onSubmit="return appDaily.submitSearch('')">
-            <p>
-              <input type="text" placeholder="search..." id="homeSearchInput">
-            </p>
-            <!-- <input type="submit" value="GO"> -->
-          </form>
-        </div>
-      </aside>
-    </div>
-  </div>
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="John Doe">John Doe</a>
+		
+		
+		</p>
 </div>
-<!-- Footer -->
-<footer class="site-info">
-  <p>
-    <span>Hexo &copy; 2017</span>
-    
-      <span class="split">|</span>
-      <span>Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> with Theme <a href="https://github.com/GallenHu/hexo-theme-Daily" target="_blank">Daily</a></span>
-    
-  </p>
 </footer>
+      <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+});
+</script>
 
 
-  <!-- After footer scripts -->
-  <!-- scripts -->
-<script src="/js/app.js"></script>
 
 
 
-</body>
 
-</html>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?e6d1f421bbc9962127a50488f9ed37d1";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+    </body>
+   </html>
